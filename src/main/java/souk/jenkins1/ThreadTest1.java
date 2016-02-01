@@ -39,7 +39,7 @@ import com.mongodb.ServerAddress;
 public class ThreadTest1 extends Thread {
 
 	AggregationOutput output;
-	MongoClient mongoClient = new MongoClient(new ServerAddress("145.24.222.189", 27017));
+	MongoClient mongoClient = new MongoClient(new ServerAddress("localhost", 27017));
 	DB db = mongoClient.getDB("project");
 	DBCollection coll = db.getCollection("positions");
 	double dX;
