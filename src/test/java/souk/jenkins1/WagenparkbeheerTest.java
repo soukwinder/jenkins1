@@ -36,5 +36,6 @@ public class WagenparkbeheerTest
     	Wagenparkbeheer w1 = new Wagenparkbeheer();
     	w1.ignition();
     	assertEquals(23, w1.UnitIds.size());
+    	assertEquals("999", w1.UnitIds.get(0));
     }
 }
