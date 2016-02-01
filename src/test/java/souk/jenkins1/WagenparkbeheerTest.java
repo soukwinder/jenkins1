@@ -25,7 +25,7 @@ public class WagenparkbeheerTest
      */
     public static Test suite()
     {
-        return new TestSuite( Wagenparkbeheer.class );
+        return new TestSuite( WagenparkbeheerTest.class );
     }
 
     /**
