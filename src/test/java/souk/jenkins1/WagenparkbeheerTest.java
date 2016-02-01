@@ -1,36 +1,39 @@
 package souk.jenkins1;
 
-import static org.junit.Assert.*;
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+/**
+ * Unit test for simple App.
+ */
+public class WagenparkbeheerTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public WagenparkbeheerTest( String testName )
+    {
+        super( testName );
+    }
 
-public class WagenparkbeheerTest {
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( Wagenparkbeheer.class );
+    }
 
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-	}
-
-	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-	}
-
-	@Before
-	public void setUp() throws Exception {
-	}
-
-	@After
-	public void tearDown() throws Exception {
-	}
-
-	@Test
-	public void test() {
-		int k = 6;
-		assertEquals(k, 5);
-		System.out.println("Antwoord is: "+ k);
-	}
-
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+    	int k = 5;
+        assertEquals(k, 5);
+    }
 }
