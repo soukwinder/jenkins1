@@ -33,7 +33,8 @@ public class WagenparkbeheerTest
      */
     public void testApp()
     {
-    	int k = 5;
-        assertEquals(k, 5);
+    	Wagenparkbeheer w1 = new Wagenparkbeheer();
+    	w1.ignition();
+    	assertEquals(23, w1.UnitIds);
     }
 }
