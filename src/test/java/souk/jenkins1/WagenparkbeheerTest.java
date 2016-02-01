@@ -28,7 +28,7 @@ public class WagenparkbeheerTest {
 
 	@Test
 	public void test() {
-		int k = 5;
+		int k = 6;
 		assertEquals(k, 5);
 		System.out.println("Antwoord is: "+ k);
 	}
