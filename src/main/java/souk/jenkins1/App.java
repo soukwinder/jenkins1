@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-    	//Wagenparkbeheer w1 = new Wagenparkbeheer();
+    	Wagenparkbeheer w1 = new Wagenparkbeheer();
 //    	CityGis c1 = new CityGis();
 //    	ThreadTest tt = new ThreadTest();
 //    	ThreadTest1 tt1 = new ThreadTest1();
@@ -35,7 +35,7 @@ public class App
 		
 		//w1.test();
 
-//    	w1.ignition();
+    	w1.ignition();
 //    	w1.com();
 //    	w1.com1();
     }
