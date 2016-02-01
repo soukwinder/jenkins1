@@ -35,7 +35,7 @@ public class App
 		
 		//w1.test();
 
-    	w1.ignition();
+//    	w1.ignition();
 //    	w1.com();
 //    	w1.com1();
     }
